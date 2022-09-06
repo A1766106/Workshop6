@@ -22,7 +22,7 @@ Orchestra::Orchestra(int size)
 
 int Orchestra::get_current_number_of_members()
 {
-    return size;
+    return array_Index;
 }
 
 bool Orchestra::has_instrument(std::string instrument)
@@ -41,6 +41,8 @@ bool Orchestra::has_instrument(std::string instrument)
  {
     return People;
  }
+
+
 
 bool Orchestra::add_musician(Musician new_musician)
 {
